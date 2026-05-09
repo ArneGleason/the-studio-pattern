@@ -53,3 +53,10 @@
 - Dogfooded this repo as `Codex` on `macbook-pro-m5`, with intended reviewer `Antigravity` on `mac-mini-pro-m4`.
 - Clarified that machine handles are human-assigned and should not be auto-inferred from hostnames.
 - Created handoff for `Antigravity` on `mac-mini-pro-m4` to review the machine-handle convention.
+
+## 2026-05-09
+
+- Received Antigravity review of the machine-handle convention from `mac-mini-pro-m4`.
+- Reviewer confirmed the agent/tool versus machine-handle distinction, human-controlled handle mapping, optional handoff fields, session JSON participant shape, adoption guidance, and updated templates.
+- No actionable findings were reported.
+- Recorded closure at `.agent/handoffs/20260509-machine-handle-review-closed.md`.

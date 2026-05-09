@@ -17,3 +17,4 @@
 - Clarified the human-mediated relay principle: handoffs and reviews should be written for human comprehension so the stakeholder can route, correct, and enrich cross-agent work.
 - Closed Antigravity sanity check for `1eac455` and aligned the cross-project feedback workflow header placeholders with the canonical traceability header.
 - Added machine handles as a human-assigned convention for identifying physical/local environments separately from agent/tool names.
+- Closed Antigravity review of the machine-handle convention with no actionable findings.
