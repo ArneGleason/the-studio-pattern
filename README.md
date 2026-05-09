@@ -19,12 +19,13 @@ The pattern should be treated as working practice, not doctrine. Each project th
 
 If you are a new agent or human entering this repository:
 
-1. Read this `README.md`.
-2. Read [docs/pattern-overview.md](docs/pattern-overview.md).
-3. Read [docs/project-memory.md](docs/project-memory.md).
-4. If adopting the pattern, follow [docs/adoption-guide.md](docs/adoption-guide.md).
-5. If reviewing or handing off work, read [docs/handoff-protocol.md](docs/handoff-protocol.md) and [docs/review-protocol.md](docs/review-protocol.md).
-6. Check [revelations.md](revelations.md) for recent discoveries and working hypotheses.
+1. Read [AGENTS.md](AGENTS.md) for repo-specific working rules and current memory surfaces.
+2. Read this `README.md`.
+3. Read [docs/pattern-overview.md](docs/pattern-overview.md).
+4. Read [docs/project-memory.md](docs/project-memory.md).
+5. If adopting the pattern, follow [docs/adoption-guide.md](docs/adoption-guide.md).
+6. If reviewing or handing off work, read [docs/handoff-protocol.md](docs/handoff-protocol.md) and [docs/review-protocol.md](docs/review-protocol.md).
+7. Check [revelations.md](revelations.md) for recent discoveries and working hypotheses.
 
 ## Core Idea
 

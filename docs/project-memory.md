@@ -91,6 +91,14 @@ Workflows should be executable reading aids: a future agent should know what to 
 - Cross-agent context belongs in `.agent/handoffs/`.
 - Canonical reusable method belongs in this repository.
 
+## Version Control Strategy
+
+By default, commit `AGENTS.md`, `LOCAL_DEV_NOTES.md`, and the project `.agent/` memory surfaces. The point of these files is to let context travel across machines, branches, reviewers, and future agents.
+
+Projects should explicitly ignore or separate anything that is local-only, sensitive, large, or volatile, such as credentials, raw logs, local databases, private exports, and generated build artifacts. If a project keeps local-only files under `.agent/`, document that exception in `LOCAL_DEV_NOTES.md` and `.gitignore`.
+
+For public repositories, write handoffs and session summaries as if they will remain in public history.
+
 ## Keep Memory Honest
 
 Delete or revise stale instructions. A wrong memory surface is worse than a missing one because agents will trust it under time pressure.

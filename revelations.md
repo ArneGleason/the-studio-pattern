@@ -30,3 +30,11 @@ The central repo should not try to own every project-specific command or runtime
 - A handoff should fit on one screen when possible, with links to deeper context rather than copying everything.
 - Reviewers should be asked to critique project memory itself, not only code.
 - Reusable pattern improvements should require at least one concrete field observation.
+
+### Canonical Repositories Should Self-Host
+
+Antigravity's first review of this repository found that the canonical pattern repo should dogfood the pattern. This is a useful test: if the pattern cannot make its own evolution easier to review and resume, it is probably too abstract.
+
+### Commit Memory By Default, Exclude Sensitive State Deliberately
+
+The default should be to commit project memory surfaces so they travel across agents and environments. Exceptions should be explicit: secrets, raw logs, local databases, private exports, and volatile runtime state should be ignored or separated.

@@ -8,3 +8,8 @@
 - Added verified case-study notes for `warehouse` and `stem-resolver`.
 - Added `revelations.md` for recent discoveries, refinements, and working hypotheses.
 - Added CC BY-SA 4.0 licensing and contribution guidance for responsible use, lineage, and field evidence.
+
+## 2026-05-09
+
+- Bootstrapped the canonical repository to dogfood the Studio Pattern with root memory files.
+- Clarified that project memory surfaces are intended to be committed by default, with sensitive/local-only exceptions documented explicitly.

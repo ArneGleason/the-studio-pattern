@@ -82,7 +82,13 @@ A project may need a small session script if it must:
 
 The canonical requirement is not the script. The requirement is that future work can resume accurately.
 
-## 7. Run One Lead/Review Cycle
+## 7. Commit Project Memory Intentionally
+
+The default recommendation is to commit `AGENTS.md`, `LOCAL_DEV_NOTES.md`, and `.agent/` memory surfaces so future agents and reviewers see the same context.
+
+Add project-specific ignores for secrets, raw logs, local databases, generated artifacts, or other files that should not travel through git.
+
+## 8. Run One Lead/Review Cycle
 
 The first real test is simple:
 

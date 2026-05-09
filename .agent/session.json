@@ -1,0 +1,16 @@
+{
+  "project": "the-studio-pattern",
+  "mode": "studio",
+  "studioPattern": {
+    "sourceRepository": "https://github.com/ArneGleason/the-studio-pattern",
+    "sourceCommit": "0890aa4",
+    "sourceDate": "2026-05-09",
+    "localAdaptation": "Self-hosting canonical pattern meta-development."
+  },
+  "currentLead": "Codex",
+  "intendedReviewer": "Antigravity",
+  "lastTask": "Dogfood canonical Studio Pattern repo after Antigravity review",
+  "status": "handoff",
+  "updatedAt": "2026-05-09T00:00:00.000Z",
+  "lastHandoff": ".agent/handoffs/20260509-antigravity-review-follow-up.md"
+}
