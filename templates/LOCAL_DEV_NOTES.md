@@ -10,6 +10,15 @@ This is the living memory file for local workflows. Add commands, ports, setup n
 - License: `CC BY-SA 4.0`
 - Local adaptation: `<brief project-specific note>`
 
+## Local Environment
+
+- Machine handle: `<human-assigned-machine-handle>`
+- Primary agent/tool here: `<agent-or-tool-name>`
+- Local checkout: `<absolute-path-if-useful>`
+- Optional OS hostname: `<hostname-if-useful-not-authoritative>`
+
+Machine handles are assigned by the human owner. Do not treat OS hostname, username, serial number, or network name as canonical unless the human explicitly maps it here.
+
 ## Setup
 
 ```sh

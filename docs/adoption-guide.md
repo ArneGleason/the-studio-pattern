@@ -111,7 +111,21 @@ That human relay should:
 - decide whether the next step should go to the lead, reviewer, specialist, future session, or canonical pattern repo,
 - preserve course corrections in project memory.
 
-## 10. Run One Lead/Review Cycle
+## 10. Name The Local Environments
+
+Assign stable machine handles for any physical machines or local environments that will participate.
+
+Examples:
+
+- `macbook-pro-m5`
+- `mac-mini-pro-m4`
+- `pc-workstation`
+
+Record the current handle in `LOCAL_DEV_NOTES.md` and `.agent/session.json`. Do not rely on auto-detected hostnames as canonical identity unless the human owner explicitly maps them to a handle.
+
+When sending work between machines, include both the agent/tool and machine handle, for example: `Codex on macbook-pro-m5 -> Antigravity on mac-mini-pro-m4`.
+
+## 11. Run One Lead/Review Cycle
 
 The first real test is simple:
 

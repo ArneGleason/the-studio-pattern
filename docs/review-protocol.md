@@ -39,6 +39,10 @@ Use a traceability header when sending that lesson to another project or thread:
 ```md
 - To: `the-studio-pattern`
 - From: `<source project or reviewer>`
+- To agent: `<agent or tool, if relevant>`
+- To machine: `<machine-handle, if relevant>`
+- From agent: `<agent or tool, if relevant>`
+- From machine: `<machine-handle, if relevant>`
 - Created: `<YYYY-MM-DD>`
 - Origin: `<review, handoff, issue, commit, or thread>`
 - Subject: `<short subject>`
@@ -50,6 +54,17 @@ Then include:
 - the project-specific fix, if any,
 - the reusable question for the canonical pattern,
 - what should remain local to the source project.
+
+## Environment Awareness
+
+When reviewing across machines, include the agent/tool and machine handle in the review context. This helps distinguish model behavior from local environment behavior.
+
+Ask:
+
+- Which machine produced the work?
+- Which machine is reviewing it?
+- Are the local checkouts at the same commit?
+- Could a finding be caused by dependencies, credentials, caches, hardware, or local-only files?
 
 ## Finding Format
 

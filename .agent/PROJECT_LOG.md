@@ -46,3 +46,9 @@
 - Reviewer confirmed the canonical shape, project boundaries, human-mediated relay principle, human-comprehension-first rule, traceability headers, `.agent/` git strategy, and adoption flow.
 - Accepted P3 polish to align the cross-project feedback workflow header placeholders with `docs/handoff-protocol.md`.
 - Recorded closure at `.agent/handoffs/20260509-antigravity-sanity-check-closed.md`.
+
+## 2026-05-09
+
+- Adopted machine handles as an optional-but-recommended convention when physical/local environment identity matters.
+- Dogfooded this repo as `Codex` on `macbook-pro-m5`, with intended reviewer `Antigravity` on `mac-mini-pro-m4`.
+- Clarified that machine handles are human-assigned and should not be auto-inferred from hostnames.

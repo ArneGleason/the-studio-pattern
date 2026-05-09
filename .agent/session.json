@@ -9,8 +9,20 @@
   },
   "currentLead": "Codex",
   "intendedReviewer": "Antigravity",
-  "lastTask": "Close Antigravity sanity check on human-mediated relay",
-  "status": "review-closed",
-  "updatedAt": "2026-05-09T15:38:50Z",
+  "participants": {
+    "lead": {
+      "agentTool": "Codex",
+      "machineHandle": "macbook-pro-m5",
+      "localCheckout": "/Users/arnegleason/code/github.com/arnegleason/the-studio-pattern"
+    },
+    "reviewer": {
+      "agentTool": "Antigravity",
+      "machineHandle": "mac-mini-pro-m4",
+      "localCheckout": ""
+    }
+  },
+  "lastTask": "Adopt machine handle convention",
+  "status": "docs-updated",
+  "updatedAt": "2026-05-09T15:50:29Z",
   "lastHandoff": ".agent/handoffs/20260509-antigravity-sanity-check-closed.md"
 }

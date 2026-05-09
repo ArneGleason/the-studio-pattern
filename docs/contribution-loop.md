@@ -61,9 +61,13 @@ The traceability header makes the origin clear without adding process to ordinar
 # Cross-Project Feedback
 
 - To: `the-studio-pattern`
-- From: `<person or project thread>`
+- From: `<person, agent, source project, or source thread>`
+- To agent: `<agent or tool, if relevant>`
+- To machine: `<machine-handle, if relevant>`
+- From agent: `<agent or tool, if relevant>`
+- From machine: `<machine-handle, if relevant>`
 - Created: `<YYYY-MM-DD>`
-- Origin: `<repo, thread, review, handoff, or session>`
+- Origin: `<source repo, commit, review, handoff, or session>`
 - Subject: `<short subject>`
 
 ## Context

@@ -22,6 +22,18 @@ When work moves between agents or environments, the human should be able to read
 
 Direct agent-to-agent transfer can be useful when the human explicitly delegates it, but the default pattern should preserve human visibility. The relay moment is where taste, intent, risk tolerance, and opportunity recognition enter the system.
 
+## Distributed Local Environments
+
+The Studio Pattern works especially well when different agents run in different local environments. Physical or machine-level separation makes the system more robust: one machine can fail, drift, or be rebuilt without destroying every participant's working context.
+
+Distinguish three identities:
+
+- **Human:** the stakeholder or relay person making routing decisions.
+- **Agent/tool:** the interface or model doing the work, such as Codex or Antigravity.
+- **Machine handle:** the human-assigned name for the physical machine or local environment where that agent is running.
+
+Use machine handles when a handoff depends on local checkout state, installed tools, credentials, hardware, or physical redundancy. Do not treat an OS hostname as authoritative unless the human owner explicitly maps it to a Studio Pattern handle.
+
 ## The Minimum Viable Pattern
 
 A project can use the pattern with only:

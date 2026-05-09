@@ -62,6 +62,8 @@ Useful fields:
 - pattern source version/date/commit,
 - current lead,
 - intended reviewer,
+- current agent/tool and machine handle,
+- intended reviewer agent/tool and machine handle,
 - branch,
 - commit,
 - last task,
@@ -69,6 +71,20 @@ Useful fields:
 - updated timestamp,
 - last handoff path,
 - project-specific state summary.
+
+### Machine Handles
+
+A machine handle is the stable human-assigned name for the physical machine or local environment where an agent is running.
+
+Use handles such as `macbook-pro-m5` or `mac-mini-pro-m4` instead of relying on hostnames, usernames, serial numbers, or network names. The handle may be mapped to those details in local notes if helpful, but the human owner should control the mapping.
+
+Machine handles are useful because local repos are not abstract. They live on real machines with different checkouts, dependencies, credentials, caches, hardware, and failure modes.
+
+Record machine handles in:
+
+- `LOCAL_DEV_NOTES.md` for the local environment map,
+- `.agent/session.json` for current lead/reviewer context,
+- handoff traceability headers when work moves between machines.
 
 ### `.agent/handoffs/`
 

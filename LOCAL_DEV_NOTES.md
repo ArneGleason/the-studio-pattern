@@ -15,6 +15,16 @@ This is the living workflow memory for developing the canonical Studio Pattern r
 - Source date: 2026-05-09
 - Local adaptation: meta-development of the pattern itself.
 
+## Local Environment
+
+- Machine handle: `macbook-pro-m5`
+- Display label: MacBook Pro M5
+- Primary agent/tool here: `Codex`
+- Local checkout: `/Users/arnegleason/code/github.com/arnegleason/the-studio-pattern`
+- Current reviewer environment: `Antigravity` on `mac-mini-pro-m4`
+
+Machine handles are human-assigned Studio Pattern labels. They are not automatically derived from OS hostname, username, serial number, or network name. If a hostname is useful for troubleshooting, record it as a non-authoritative mapping after Arne confirms it.
+
 ## Common Checks
 
 List files:

@@ -12,6 +12,7 @@ Findings received 2026-05-09:
 ## Next Reviewer Focus
 
 - Should `.agent/session.json` in adopting projects record both source commit and local adaptation commit?
+- Does the machine-handle convention make physical/local environment separation clear without requiring unnecessary inventory management?
 
 ## Future Observation
 

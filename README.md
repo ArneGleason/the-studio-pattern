@@ -43,6 +43,8 @@ The human sets direction and taste. The lead agent moves the project forward and
 
 The human is also the context steward. Cross-agent messages should usually pass through a human-readable handoff that the human can read, understand, annotate, and choose how to route. That pause is part of the pattern: it keeps the stakeholder aware of what is happening, creates space for course correction, and helps the project notice opportunities that a direct agent-to-agent relay might miss.
 
+Agents may also run on different physical machines or local environments. The pattern treats that as useful separation, not incidental detail: an agent/tool name says who is reasoning, while a machine handle says where the local checkout, dependencies, credentials, and runtime state live.
+
 ## How Projects Use The Pattern
 
 Copy the relevant templates from `templates/` into the project:
@@ -84,6 +86,7 @@ Reusable improvements should be proposed back here by updating docs, templates, 
 - Keep handoffs short enough that another agent will actually read them.
 - Write handoffs for human comprehension first, even when another agent is the next reader.
 - Use human-mediated relay as a feature, not friction: the human should be able to understand and redirect the work as it moves between agents.
+- Use stable human-assigned machine handles when local environment identity matters.
 - Make decisions visible where future work will look for them.
 - Treat reviews as a way to find bugs, risks, unclear memory, and weak assumptions.
 - Let field evidence change the pattern.

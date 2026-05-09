@@ -10,6 +10,18 @@
   },
   "currentLead": "<name-or-model>",
   "intendedReviewer": "<name-or-model>",
+  "participants": {
+    "lead": {
+      "agentTool": "<agent-or-tool-name>",
+      "machineHandle": "<human-assigned-machine-handle>",
+      "localCheckout": "<absolute-path-if-useful>"
+    },
+    "reviewer": {
+      "agentTool": "<agent-or-tool-name>",
+      "machineHandle": "<human-assigned-machine-handle>",
+      "localCheckout": "<absolute-path-if-useful>"
+    }
+  },
   "lastTask": "<task name>",
   "status": "initialized",
   "updatedAt": "<iso-timestamp>",

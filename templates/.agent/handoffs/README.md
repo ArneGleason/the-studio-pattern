@@ -21,3 +21,14 @@ For handoffs that cross project, repository, or thread boundaries, add this trac
 - Origin: `<source repo, commit, review, handoff, or session>`
 - Subject: `<short subject>`
 ```
+
+When work moves between physical machines or local environments, add machine context:
+
+```md
+- To agent: `<agent or tool>`
+- To machine: `<machine-handle>`
+- From agent: `<agent or tool>`
+- From machine: `<machine-handle>`
+```
+
+Machine handles are human-assigned labels such as `macbook-pro-m5` or `mac-mini-pro-m4`; do not infer them from OS hostname without confirmation.

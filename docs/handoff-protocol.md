@@ -30,6 +30,7 @@ A good handoff includes:
 - branch and commit when available,
 - status,
 - traceability header when the handoff crosses projects or threads,
+- agent and machine handles when local environment identity matters,
 - what changed,
 - what the human owner should understand before passing it on,
 - current repo state,
@@ -67,6 +68,34 @@ Recommended fields:
 
 Do not require this header for ordinary local suspend/resume notes. Use it when the reader may not otherwise know which project owns the next action.
 
+## Machine Handles
+
+Use a machine handle when the physical machine or local environment matters to the handoff.
+
+The agent/tool name and machine handle are different:
+
+- Agent/tool: `Codex`, `Antigravity`, `Claude`, or another development environment.
+- Machine handle: `macbook-pro-m5`, `mac-mini-pro-m4`, `pc-workstation`, or another human-assigned environment name.
+
+Machine handles should be:
+
+- stable across sessions,
+- human-readable,
+- lowercase kebab-case by default,
+- assigned or confirmed by the human owner,
+- independent of OS hostname, serial number, username, or network name.
+
+Do not auto-infer a canonical handle from the current machine name. A project may record a non-authoritative OS hostname for troubleshooting, but the human-assigned handle is what belongs in handoffs.
+
+When useful, extend the traceability header:
+
+```md
+- To agent: `<agent or tool>`
+- To machine: `<machine-handle>`
+- From agent: `<agent or tool>`
+- From machine: `<machine-handle>`
+```
+
 ## Suspend Versus Handoff
 
 Suspend means the same lead or project owner may resume later.
@@ -92,6 +121,13 @@ Many projects can use the same mechanism for both, but the intent should be clea
 - Created: <YYYY-MM-DD>
 - Origin: <source context>
 - Subject: <short subject>
+-->
+
+<!-- If local environments matter, add:
+- To agent: <agent or tool>
+- To machine: <machine-handle>
+- From agent: <agent or tool>
+- From machine: <machine-handle>
 -->
 
 ## What Changed

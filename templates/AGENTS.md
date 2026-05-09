@@ -12,6 +12,13 @@ Studio Pattern source:
 - License: `CC BY-SA 4.0`
 - Local adaptation: `<brief note about project-specific changes>`
 
+## Local Environment
+
+- Agent/tool: `<agent-or-tool-name>`
+- Machine handle: `<human-assigned-machine-handle>`
+- Local checkout: `<absolute-path-if-useful>`
+- Handle note: machine handles are human-assigned and should not be inferred from OS hostname without confirmation.
+
 ## First Reads
 
 1. Read `README.md` for project purpose and normal commands.
@@ -29,6 +36,7 @@ Studio Pattern source:
 - Update `.agent/PROJECT_LOG.md` when you make a meaningful implementation, product, research, or architecture decision.
 - Update `.agent/REVIEW_QUEUE.md` when you leave a question, risk, or known weak spot for a reviewer.
 - Keep `.agent/session.json` current before suspend, handoff, or model/environment transfer.
+- Include machine handles in handoffs when work moves between physical machines or local environments.
 - Write handoffs and review notes for the human owner first; another agent may be the next reader, but the human should be able to understand and route the work.
 - If this project teaches a reusable Studio Pattern lesson, record it locally first, then send a cross-project feedback block to the canonical repository or thread.
 

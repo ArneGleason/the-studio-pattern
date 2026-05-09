@@ -13,6 +13,15 @@ This repo now dogfoods the pattern. Treat root-level memory files as the project
 - Source date: 2026-05-09
 - Local adaptation: canonical pattern meta-development, documentation review, template evolution, and case-study maintenance.
 
+## Local Environment
+
+- Agent/tool: `Codex`
+- Machine handle: `macbook-pro-m5`
+- Local checkout: `/Users/arnegleason/code/github.com/arnegleason/the-studio-pattern`
+- Intended reviewer: `Antigravity` on `mac-mini-pro-m4`
+
+Machine handles are assigned by Arne as the human relay. Do not infer or change them from OS hostname without confirmation.
+
 ## First Reads
 
 1. Read `README.md` for the mission and repository map.
@@ -27,6 +36,7 @@ This repo now dogfoods the pattern. Treat root-level memory files as the project
 - Keep the pattern lightweight and evidence-based.
 - Prefer changes that help real projects resume, hand off, or review work with less confusion.
 - Preserve the human-mediated relay principle: handoffs and reviews should help the human owner understand, route, and course-correct cross-agent work.
+- Preserve environment identity: name both the agent/tool and machine handle when local checkout state matters.
 - Distinguish canonical guidance from project-specific adaptation.
 - Update `templates/` only when a practice should be reusable by new projects.
 - Update case studies only from verified local files or linked public evidence.

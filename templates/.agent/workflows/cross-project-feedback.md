@@ -17,6 +17,10 @@ Use this when a local project reveals a reusable pattern lesson.
 
 - To: `<destination project or thread>`
 - From: `<person, agent, source project, or source thread>`
+- To agent: `<agent or tool, if relevant>`
+- To machine: `<machine-handle, if relevant>`
+- From agent: `<agent or tool, if relevant>`
+- From machine: `<machine-handle, if relevant>`
 - Created: `<YYYY-MM-DD>`
 - Origin: `<source repo, commit, review, handoff, or session>`
 - Subject: `<short subject>`
