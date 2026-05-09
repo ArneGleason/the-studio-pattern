@@ -1,0 +1,21 @@
+{
+  "project": "<project-name>",
+  "mode": "studio",
+  "studioPattern": {
+    "versionDate": "<YYYY-MM-DD or release>",
+    "sourceRepo": "the-studio-pattern",
+    "sourceCommit": "<commit-sha-or-date-if-no-commit>",
+    "localAdaptation": "<brief project-specific note>"
+  },
+  "currentLead": "<name-or-model>",
+  "intendedReviewer": "<name-or-model>",
+  "lastTask": "<task name>",
+  "status": "initialized",
+  "updatedAt": "<iso-timestamp>",
+  "lastHandoff": "",
+  "branch": "",
+  "commit": "",
+  "projectState": {
+    "summary": "<short resumable state summary>"
+  }
+}
