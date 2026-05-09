@@ -52,3 +52,4 @@
 - Adopted machine handles as an optional-but-recommended convention when physical/local environment identity matters.
 - Dogfooded this repo as `Codex` on `macbook-pro-m5`, with intended reviewer `Antigravity` on `mac-mini-pro-m4`.
 - Clarified that machine handles are human-assigned and should not be auto-inferred from hostnames.
+- Created handoff for `Antigravity` on `mac-mini-pro-m4` to review the machine-handle convention.

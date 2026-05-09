@@ -21,8 +21,8 @@
       "localCheckout": ""
     }
   },
-  "lastTask": "Adopt machine handle convention",
-  "status": "docs-updated",
-  "updatedAt": "2026-05-09T15:50:29Z",
-  "lastHandoff": ".agent/handoffs/20260509-antigravity-sanity-check-closed.md"
+  "lastTask": "Prepare machine handle convention handoff",
+  "status": "handoff",
+  "updatedAt": "2026-05-09T15:51:53Z",
+  "lastHandoff": ".agent/handoffs/20260509-machine-handle-convention-review.md"
 }

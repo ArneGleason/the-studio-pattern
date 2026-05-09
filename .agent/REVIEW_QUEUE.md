@@ -13,6 +13,7 @@ Findings received 2026-05-09:
 
 - Should `.agent/session.json` in adopting projects record both source commit and local adaptation commit?
 - Does the machine-handle convention make physical/local environment separation clear without requiring unnecessary inventory management?
+- Antigravity on `mac-mini-pro-m4`: review `a7c0245` for the machine-handle convention.
 
 ## Future Observation
 
