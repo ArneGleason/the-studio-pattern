@@ -9,8 +9,8 @@
   },
   "currentLead": "Codex",
   "intendedReviewer": "Antigravity",
-  "lastTask": "Dogfood canonical Studio Pattern repo after Antigravity review",
-  "status": "handoff",
+  "lastTask": "Close Antigravity follow-up review for d88d7a0",
+  "status": "review-closed",
   "updatedAt": "2026-05-09T00:00:00.000Z",
   "lastHandoff": ".agent/handoffs/20260509-antigravity-review-follow-up.md"
 }

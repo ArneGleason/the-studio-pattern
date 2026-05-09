@@ -11,7 +11,8 @@ Findings received 2026-05-09:
 
 ## Next Reviewer Focus
 
-- Does the self-hosting root memory duplicate the templates too much, or does it clarify the canonical repo's own work?
-- Is the version-control guidance clear enough for both public docs repos and private application repos?
-- Should the canonical repo provide a small adoption script, or is copy/adapt still the right first move?
 - Should `.agent/session.json` in adopting projects record both source commit and local adaptation commit?
+
+## Future Observation
+
+- Watch whether committed `.agent/session.json` and `.agent/handoffs/` cause merge friction during concurrent meta-development. If they do, revisit whether public/highly collaborative repos need a different convention than private project repos.
