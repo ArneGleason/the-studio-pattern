@@ -15,3 +15,4 @@
 - Clarified that project memory surfaces are intended to be committed by default, with sensitive/local-only exceptions documented explicitly.
 - Added cross-project boundary guidance, traceability headers, and a reusable feedback-block workflow template.
 - Clarified the human-mediated relay principle: handoffs and reviews should be written for human comprehension so the stakeholder can route, correct, and enrich cross-agent work.
+- Closed Antigravity sanity check for `1eac455` and aligned the cross-project feedback workflow header placeholders with the canonical traceability header.

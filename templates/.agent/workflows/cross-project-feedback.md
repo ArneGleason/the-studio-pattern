@@ -10,15 +10,15 @@ Use this when a local project reveals a reusable pattern lesson.
    - Use `.agent/handoffs/` when another participant needs context.
 2. Ask the human owner to read the summary and add any stakeholder context.
 3. Decide what remains local to this project.
-4. Copy this block to the canonical Studio Pattern repo or thread.
+4. Copy this block to the canonical Studio Pattern repo or thread. For feedback to the canonical repo, set `To` to `the-studio-pattern`.
 
 ```md
 # Cross-Project Feedback
 
-- To: `the-studio-pattern`
-- From: `<person or project thread>`
+- To: `<destination project or thread>`
+- From: `<person, agent, source project, or source thread>`
 - Created: `<YYYY-MM-DD>`
-- Origin: `<repo, thread, review, handoff, or session>`
+- Origin: `<source repo, commit, review, handoff, or session>`
 - Subject: `<short subject>`
 
 ## Context
