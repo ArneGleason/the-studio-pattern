@@ -5,6 +5,7 @@
     "versionDate": "<YYYY-MM-DD or release>",
     "sourceRepo": "the-studio-pattern",
     "sourceCommit": "<commit-sha-or-date-if-no-commit>",
+    "license": "CC BY-SA 4.0",
     "localAdaptation": "<brief project-specific note>"
   },
   "currentLead": "<name-or-model>",

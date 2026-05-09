@@ -55,6 +55,7 @@ Then adapt them locally. A project should record the source it adopted from:
 ```md
 Studio Pattern: 2026-05-09 initial canonical scaffold
 Source: the-studio-pattern commit <commit-sha-or-date>
+License: CC BY-SA 4.0
 Local adaptation: <what changed for this project>
 ```
 
@@ -89,6 +90,14 @@ Reusable improvements should be proposed back here by updating docs, templates, 
 - `case-studies/`: notes from verified local project evidence.
 - `revelations.md`: recent discoveries, refinements, and working hypotheses.
 - `CHANGELOG.md`: history of canonical pattern changes.
+- `CONTRIBUTING.md`: contribution norms, responsible-use expectations, and lineage guidance.
+- `LICENSE.md`: CC BY-SA 4.0 license notice.
+
+## License
+
+The Studio Pattern is licensed under [CC BY-SA 4.0](LICENSE.md). You can share and adapt it, including commercially, as long as you preserve attribution and share adaptations under the same license.
+
+The project also asks adopters to keep a small lineage note pointing back to this repository so the evolution of the pattern can be studied over time.
 
 ## Status
 

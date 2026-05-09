@@ -26,6 +26,7 @@ Example:
 ```md
 Studio Pattern: 2026-05-09 initial canonical scaffold
 Source: the-studio-pattern commit <commit-sha>
+License: CC BY-SA 4.0
 Local adaptation: Added corpus validation and audio storage policy.
 ```
 

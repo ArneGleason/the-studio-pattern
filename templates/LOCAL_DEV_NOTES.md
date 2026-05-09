@@ -7,6 +7,7 @@ This is the living memory file for local workflows. Add commands, ports, setup n
 - Version/date: `<YYYY-MM-DD or release>`
 - Source repository: `the-studio-pattern`
 - Source commit: `<commit-sha-or-date-if-no-commit>`
+- License: `CC BY-SA 4.0`
 - Local adaptation: `<brief project-specific note>`
 
 ## Setup

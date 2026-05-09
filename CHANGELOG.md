@@ -7,3 +7,4 @@
 - Added copyable templates for `AGENTS.md`, `LOCAL_DEV_NOTES.md`, `.agent/PROJECT_LOG.md`, `.agent/REVIEW_QUEUE.md`, `.agent/session.json`, and resume/suspend workflows.
 - Added verified case-study notes for `warehouse` and `stem-resolver`.
 - Added `revelations.md` for recent discoveries, refinements, and working hypotheses.
+- Added CC BY-SA 4.0 licensing and contribution guidance for responsible use, lineage, and field evidence.
