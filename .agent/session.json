@@ -9,8 +9,8 @@
   },
   "currentLead": "Codex",
   "intendedReviewer": "Antigravity",
-  "lastTask": "Document cross-project boundaries and feedback blocks",
-  "status": "docs-updated",
-  "updatedAt": "2026-05-09T15:20:29Z",
-  "lastHandoff": ".agent/handoffs/20260509-cross-project-boundary-guidance.md"
+  "lastTask": "Prepare Antigravity sanity-check handoff",
+  "status": "handoff",
+  "updatedAt": "2026-05-09T15:25:12Z",
+  "lastHandoff": ".agent/handoffs/20260509-antigravity-studio-pattern-sanity-check.md"
 }

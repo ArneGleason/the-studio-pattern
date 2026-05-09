@@ -13,6 +13,7 @@ Findings received 2026-05-09:
 
 - Should `.agent/session.json` in adopting projects record both source commit and local adaptation commit?
 - Do cross-project feedback blocks and traceability headers stay lightweight enough, or do they add ceremony outside genuinely cross-project situations?
+- Antigravity sanity check: does `the-studio-pattern @ a6be02b` match the expected canonical shape and boundary model?
 
 ## Future Observation
 

@@ -28,3 +28,8 @@
 - Clarified that canonical pattern evolution belongs in this repository/thread, while adopting-project implementation belongs in the adopting project.
 - Added boundary guidance and a standard cross-project feedback block so reusable lessons can move back here without blurring project ownership.
 - Recorded the clarification as `.agent/handoffs/20260509-cross-project-boundary-guidance.md`.
+
+## 2026-05-09
+
+- Created an Antigravity sanity-check handoff for the canonical Studio Pattern state at `a6be02b`.
+- Handoff: `.agent/handoffs/20260509-antigravity-studio-pattern-sanity-check.md`.
