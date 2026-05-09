@@ -4,6 +4,17 @@ The Studio Pattern improves when project-specific lessons become reusable patter
 
 Each adopting project is a field test.
 
+## Project Boundaries
+
+Keep the canonical pattern and adopting projects distinct.
+
+- The canonical repository owns shared templates, protocols, docs, case studies, and meta-process decisions.
+- An adopting project owns its product work, research work, local commands, local `.agent/` files, and project-specific adaptations.
+- A project thread should not become the only place where canonical pattern changes are decided.
+- A canonical thread should not take over an adopting project's local implementation details unless they are evidence for a reusable pattern change.
+
+When an adopting project teaches something reusable, record the local evidence in that project first. Then bring a concise cross-project feedback block back to the canonical Studio Pattern repo or thread.
+
 ## Local First
 
 When a project discovers something useful, record it locally before changing the canonical repo.
@@ -38,6 +49,46 @@ Reusable lessons can become:
 - a revelation or working hypothesis,
 - a future script or utility, if the need repeats.
 
+## Cross-Project Feedback Blocks
+
+Use a cross-project feedback block when a lesson, review result, or boundary clarification moves from one project to another.
+
+A copyable workflow template lives at `templates/.agent/workflows/cross-project-feedback.md`.
+
+The traceability header makes the origin clear without adding process to ordinary local notes:
+
+```md
+# Cross-Project Feedback
+
+- To: `the-studio-pattern`
+- From: `<person or project thread>`
+- Created: `<YYYY-MM-DD>`
+- Origin: `<repo, thread, review, handoff, or session>`
+- Subject: `<short subject>`
+
+## Context
+
+<why this is crossing project boundaries>
+
+## Local Evidence
+
+- `<verified file, commit, review finding, or workflow observation>`
+
+## Reusable Question
+
+<what the canonical pattern should consider>
+
+## Proposed Canonical Change
+
+<smallest reusable docs, template, or protocol change>
+
+## Boundary Note
+
+<what remains local to the source project>
+```
+
+Do not require this block for every local decision. Use it when the destination project would otherwise lose track of where the idea came from.
+
 ## Keep Canonical Changes Evidence-Based
 
 When proposing a change, include:
@@ -55,7 +106,7 @@ Do not promote a project-specific ritual just because it feels tidy. Promote it 
 ## Expected Flow
 
 ```txt
-canonical pattern -> project adaptation -> field use -> local lesson -> reusable refinement -> canonical pattern
+canonical pattern -> project adaptation -> field use -> local lesson -> cross-project feedback -> reusable refinement -> canonical pattern
 ```
 
 The loop should stay porous. Projects should be free to adapt locally, and the canonical pattern should only absorb what remains broadly useful.

@@ -4,6 +4,8 @@ Review is a separate perspective, not a ceremonial rubber stamp.
 
 The reviewer should look for defects, weak assumptions, data-loss risks, missing tests, unclear project memory, and places where the next agent would get lost.
 
+When a review crosses project boundaries, state the boundary explicitly. For example, reviewing an adopting project's local Studio Pattern files is different from changing the canonical pattern itself.
+
 ## Reviewer Starting Path
 
 1. Read `AGENTS.md`.
@@ -24,6 +26,27 @@ The reviewer should look for defects, weak assumptions, data-loss risks, missing
 - awkward workflows,
 - stale or missing memory surfaces,
 - failure to update docs after important changes.
+
+## Cross-Project Reviews
+
+If a review finding from an adopting project may change the canonical pattern, separate the local finding from the reusable lesson.
+
+Use a traceability header when sending that lesson to another project or thread:
+
+```md
+- To: `the-studio-pattern`
+- From: `<source project or reviewer>`
+- Created: `<YYYY-MM-DD>`
+- Origin: `<review, handoff, issue, commit, or thread>`
+- Subject: `<short subject>`
+```
+
+Then include:
+
+- the local evidence,
+- the project-specific fix, if any,
+- the reusable question for the canonical pattern,
+- what should remain local to the source project.
 
 ## Finding Format
 

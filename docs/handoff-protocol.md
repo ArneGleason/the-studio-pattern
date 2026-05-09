@@ -7,6 +7,7 @@ Use a handoff when:
 - switching from lead developer to reviewer,
 - pausing work for a later session,
 - changing model or environment,
+- moving context between projects or project threads,
 - ending a coherent task,
 - leaving behind state that is not obvious from the code.
 
@@ -28,6 +29,7 @@ A good handoff includes:
 - timestamp,
 - branch and commit when available,
 - status,
+- traceability header when the handoff crosses projects or threads,
 - what changed,
 - current repo state,
 - checks run,
@@ -37,6 +39,22 @@ A good handoff includes:
 - project-specific state summary.
 
 Keep the handoff concise. Link to memory surfaces rather than copying long histories.
+
+## Traceability Header
+
+Use a traceability header when a handoff, review note, or feedback block crosses project, repo, or thread boundaries.
+
+Recommended fields:
+
+```md
+- To: `<destination project or thread>`
+- From: `<person, agent, source project, or source thread>`
+- Created: `<YYYY-MM-DD>`
+- Origin: `<source repo, commit, review, handoff, or session>`
+- Subject: `<short subject>`
+```
+
+Do not require this header for ordinary local suspend/resume notes. Use it when the reader may not otherwise know which project owns the next action.
 
 ## Suspend Versus Handoff
 
@@ -56,6 +74,14 @@ Many projects can use the same mechanism for both, but the intent should be clea
 - Branch: <branch>
 - Commit: <commit-or-none>
 - Studio Pattern: <date-or-version> from <commit>
+
+<!-- If this crosses projects or threads, add:
+- To: <destination>
+- From: <source>
+- Created: <YYYY-MM-DD>
+- Origin: <source context>
+- Subject: <short subject>
+-->
 
 ## What Changed
 

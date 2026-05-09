@@ -21,3 +21,10 @@
 - Reviewer confirmed the `.agent/` git strategy is clear enough for current use.
 - Reviewer recommended staying with copy/adapt rather than adding an adoption script.
 - No immediate docs or code changes were required; only the future observation about possible `.agent/` merge conflicts was kept in the review queue.
+
+## 2026-05-09
+
+- Received a cross-project clarification from Arne after bootstrap work crossed between `stem-resolver` and `the-studio-pattern`.
+- Clarified that canonical pattern evolution belongs in this repository/thread, while adopting-project implementation belongs in the adopting project.
+- Added boundary guidance and a standard cross-project feedback block so reusable lessons can move back here without blurring project ownership.
+- Recorded the clarification as `.agent/handoffs/20260509-cross-project-boundary-guidance.md`.

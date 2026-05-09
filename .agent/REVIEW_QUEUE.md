@@ -12,6 +12,7 @@ Findings received 2026-05-09:
 ## Next Reviewer Focus
 
 - Should `.agent/session.json` in adopting projects record both source commit and local adaptation commit?
+- Do cross-project feedback blocks and traceability headers stay lightweight enough, or do they add ceremony outside genuinely cross-project situations?
 
 ## Future Observation
 

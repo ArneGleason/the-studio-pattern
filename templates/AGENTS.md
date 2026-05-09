@@ -29,6 +29,7 @@ Studio Pattern source:
 - Update `.agent/PROJECT_LOG.md` when you make a meaningful implementation, product, research, or architecture decision.
 - Update `.agent/REVIEW_QUEUE.md` when you leave a question, risk, or known weak spot for a reviewer.
 - Keep `.agent/session.json` current before suspend, handoff, or model/environment transfer.
+- If this project teaches a reusable Studio Pattern lesson, record it locally first, then send a cross-project feedback block to the canonical repository or thread.
 
 ## Validation
 
