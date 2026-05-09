@@ -26,6 +26,7 @@ This repo now dogfoods the pattern. Treat root-level memory files as the project
 
 - Keep the pattern lightweight and evidence-based.
 - Prefer changes that help real projects resume, hand off, or review work with less confusion.
+- Preserve the human-mediated relay principle: handoffs and reviews should help the human owner understand, route, and course-correct cross-agent work.
 - Distinguish canonical guidance from project-specific adaptation.
 - Update `templates/` only when a practice should be reusable by new projects.
 - Update case studies only from verified local files or linked public evidence.

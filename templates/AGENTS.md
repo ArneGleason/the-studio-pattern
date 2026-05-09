@@ -29,6 +29,7 @@ Studio Pattern source:
 - Update `.agent/PROJECT_LOG.md` when you make a meaningful implementation, product, research, or architecture decision.
 - Update `.agent/REVIEW_QUEUE.md` when you leave a question, risk, or known weak spot for a reviewer.
 - Keep `.agent/session.json` current before suspend, handoff, or model/environment transfer.
+- Write handoffs and review notes for the human owner first; another agent may be the next reader, but the human should be able to understand and route the work.
 - If this project teaches a reusable Studio Pattern lesson, record it locally first, then send a cross-project feedback block to the canonical repository or thread.
 
 ## Validation
@@ -48,7 +49,8 @@ When handing to another agent, reviewer, human, or future session:
 1. Run validation where practical.
 2. Update the memory files listed above.
 3. Create or update a handoff under `.agent/handoffs/`.
-4. Tell the next participant which files to read first.
+4. Give the human owner a concise summary they can read and route.
+5. Tell the next participant which files to read first.
 
 ## Project Safety
 

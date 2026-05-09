@@ -3,7 +3,7 @@
 - To: `Antigravity reviewer`
 - From: `Codex in the Studio Pattern project thread`
 - Created: `2026-05-09`
-- Origin: `the-studio-pattern @ a6be02b`
+- Origin: `the-studio-pattern`, latest `main` after human-mediated relay clarification
 - Subject: Quick sanity check that Antigravity sees the same canonical pattern state
 
 ## Context
@@ -15,9 +15,9 @@ This handoff asks for a quick sanity check from Antigravity's side: does the rep
 ## Current Repo State
 
 - Repository: `https://github.com/ArneGleason/the-studio-pattern`
-- Canonical content commit to review: `a6be02b`
-- Commit title: `Document cross-project feedback boundaries`
-- Note: this handoff may be committed in a later commit containing only review-memory updates.
+- Baseline boundary commit: `a6be02b`
+- Additional handoff/memory commit: `c031b87`
+- Current content to review: latest `main`, including the human-mediated relay clarification.
 - Local branch: `main`
 - Expected git state at handoff creation: clean
 - License: CC BY-SA 4.0
@@ -41,13 +41,15 @@ The intended rule is: commit practical project memory by default, but explicitly
 - Added traceability-header guidance to `docs/handoff-protocol.md` and `docs/review-protocol.md`.
 - Added a copyable cross-project feedback workflow at `templates/.agent/workflows/cross-project-feedback.md`.
 - Recorded the boundary clarification as `.agent/handoffs/20260509-cross-project-boundary-guidance.md`.
+- Clarified the human-mediated relay principle: handoffs and reviews should be written for human comprehension first so the stakeholder can understand, route, correct, and enrich cross-agent work.
 
 ## Requested Sanity Check
 
 Please verify:
 
-- Does `the-studio-pattern @ a6be02b` look like the current canonical pattern content?
+- Does latest `main` look like the current canonical pattern content?
 - Does the repo clearly distinguish canonical pattern evolution from adopting-project work such as `stem-resolver`?
+- Does the human-mediated relay principle now come through clearly as a core part of the pattern?
 - Are cross-project feedback blocks and `To` / `From` / `Created` / `Origin` / `Subject` traceability headers scoped narrowly enough to avoid unnecessary ceremony?
 - Is the `.agent/` git strategy still clear after the new cross-project feedback workflow was added?
 - Would an adopting project know what to copy, what to adapt locally, and how to report reusable lessons back?

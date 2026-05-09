@@ -41,6 +41,8 @@ A project using the Studio Pattern keeps a small set of practical memory surface
 
 The human sets direction and taste. The lead agent moves the project forward and records what matters. The reviewer agent examines the result from a fresh angle. Specialist agents can be brought in for narrow tasks when useful.
 
+The human is also the context steward. Cross-agent messages should usually pass through a human-readable handoff that the human can read, understand, annotate, and choose how to route. That pause is part of the pattern: it keeps the stakeholder aware of what is happening, creates space for course correction, and helps the project notice opportunities that a direct agent-to-agent relay might miss.
+
 ## How Projects Use The Pattern
 
 Copy the relevant templates from `templates/` into the project:
@@ -80,6 +82,8 @@ Reusable improvements should be proposed back here by updating docs, templates, 
 - Prefer practical memory surfaces over elaborate process.
 - Make the first reads obvious.
 - Keep handoffs short enough that another agent will actually read them.
+- Write handoffs for human comprehension first, even when another agent is the next reader.
+- Use human-mediated relay as a feature, not friction: the human should be able to understand and redirect the work as it moves between agents.
 - Make decisions visible where future work will look for them.
 - Treat reviews as a way to find bugs, risks, unclear memory, and weak assumptions.
 - Let field evidence change the pattern.

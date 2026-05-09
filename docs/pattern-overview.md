@@ -9,9 +9,18 @@ It assumes the hard part is not only generating work. The hard part is preservin
 1. Orient from a short, known reading path.
 2. Do one coherent piece of work.
 3. Record decisions, commands, and risks where future agents will look.
-4. Prepare a concise handoff when changing agents, environments, or sessions.
-5. Review from a separate perspective.
-6. Promote useful lessons back into the local project and, when reusable, this repository.
+4. Prepare a concise, human-readable handoff when changing agents, environments, or sessions.
+5. Let the human owner read the handoff, add judgment or course correction, and decide how to route the next step.
+6. Review from a separate perspective.
+7. Promote useful lessons back into the local project and, when reusable, this repository.
+
+## Human-Mediated Relay
+
+The Studio Pattern assumes a human remains in the loop as context steward, not only as final approver.
+
+When work moves between agents or environments, the human should be able to read the summary, understand what changed, add missing context, and decide whether the next step still matches the project's goals. This is why handoffs should be written for human comprehension first.
+
+Direct agent-to-agent transfer can be useful when the human explicitly delegates it, but the default pattern should preserve human visibility. The relay moment is where taste, intent, risk tolerance, and opportunity recognition enter the system.
 
 ## The Minimum Viable Pattern
 

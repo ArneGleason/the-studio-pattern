@@ -33,3 +33,9 @@
 
 - Created an Antigravity sanity-check handoff for the canonical Studio Pattern state at `a6be02b`.
 - Handoff: `.agent/handoffs/20260509-antigravity-studio-pattern-sanity-check.md`.
+
+## 2026-05-09
+
+- Clarified the human-mediated relay principle after Arne noted that the human passing messages between agents is a core part of the pattern.
+- Updated README, roles, overview, handoff, review, adoption, and templates so handoffs are written for human comprehension first.
+- Updated the Antigravity sanity-check handoff so the review request covers latest `main`, including the human-mediated relay clarification.

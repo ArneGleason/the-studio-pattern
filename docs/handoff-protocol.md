@@ -1,6 +1,6 @@
 # Handoff Protocol
 
-A handoff is a compact transfer of project state. It should let another human or agent continue with fewer false starts.
+A handoff is a compact transfer of project state. It should let the human owner understand the state of the work and let another human or agent continue with fewer false starts.
 
 Use a handoff when:
 
@@ -31,6 +31,7 @@ A good handoff includes:
 - status,
 - traceability header when the handoff crosses projects or threads,
 - what changed,
+- what the human owner should understand before passing it on,
 - current repo state,
 - checks run,
 - checks not run,
@@ -39,6 +40,16 @@ A good handoff includes:
 - project-specific state summary.
 
 Keep the handoff concise. Link to memory surfaces rather than copying long histories.
+
+## Human-Mediated Handoff
+
+Write handoffs for human comprehension first.
+
+The human owner should be able to read the handoff, understand what changed, decide whether the work still matches their goals, and add context before routing it to a reviewer, specialist, future session, or different environment.
+
+This human relay is part of the pattern. It keeps the stakeholder oriented and creates a natural checkpoint for course correction, priority changes, and noticing useful opportunities.
+
+If a project intentionally uses direct agent-to-agent handoff, still leave a human-readable summary in `.agent/handoffs/` or `.agent/session.json`.
 
 ## Traceability Header
 

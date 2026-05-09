@@ -6,6 +6,8 @@ The reviewer should look for defects, weak assumptions, data-loss risks, missing
 
 When a review crosses project boundaries, state the boundary explicitly. For example, reviewing an adopting project's local Studio Pattern files is different from changing the canonical pattern itself.
 
+Reviews should be written so the human owner can understand and route them. The reviewer is not only speaking to the lead agent; they are helping the human decide whether to accept, redirect, deepen, or pause the work.
+
 ## Reviewer Starting Path
 
 1. Read `AGENTS.md`.
@@ -26,6 +28,7 @@ When a review crosses project boundaries, state the boundary explicitly. For exa
 - awkward workflows,
 - stale or missing memory surfaces,
 - failure to update docs after important changes.
+- handoffs or reviews that are too opaque for the human owner to route intelligently.
 
 ## Cross-Project Reviews
 
@@ -73,6 +76,7 @@ Use severity only to help ordering:
 A Studio Pattern review should ask:
 
 - Could a new agent find the right first reads?
+- Could the human owner understand the review well enough to make the next routing decision?
 - Are commands and ports recorded?
 - Are decisions visible?
 - Are open questions in the review queue?

@@ -11,7 +11,18 @@ Responsibilities:
 - Define what matters and why.
 - Resolve tradeoffs that require taste or product judgment.
 - Approve risky, destructive, externally visible, or expensive actions.
+- Read cross-agent handoffs closely enough to understand the current state.
+- Add missing context, course corrections, or opportunity notes before passing work onward.
+- Decide which agent, model, environment, or human should receive the next handoff.
 - Decide when local lessons should become canonical pattern updates.
+
+## Human Context Steward
+
+In many projects, the human owner also acts as the context steward.
+
+This is an active role, not a mailbox. The context steward carries summaries between agents, reads what is being passed, checks whether the work still matches the project intent, and adds judgment before the next participant acts.
+
+The goal is not to slow the work down. The goal is to keep the human stakeholder oriented enough to notice drift, redirect effort, recognize new opportunities, and understand what has been built so far.
 
 ## Lead Developer Agent
 
@@ -55,3 +66,5 @@ Specialists should receive a tight brief and write their findings back into the 
 ## Human And Agent Handoffs
 
 The pattern does not assume all handoffs are agent-to-agent. Human-to-agent, agent-to-human, and agent-to-future-self handoffs should use the same principle: write down the minimum context that prevents waste and mistakes.
+
+By default, write handoffs as if the human owner will read them before they reach the next agent. If a project intentionally uses direct agent-to-agent relay, keep a human-readable summary in the project memory so the human can regain context quickly.

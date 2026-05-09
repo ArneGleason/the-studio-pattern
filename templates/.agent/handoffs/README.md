@@ -10,6 +10,8 @@ YYYYMMDD-HHMMSS-short-task-name.md
 
 Each handoff should summarize what changed, current state, checks run, checks not run, reviewer starting points, and open questions.
 
+Write handoffs for the human owner first. The next reader may be another agent, but the human should be able to understand the state, add context, and decide where the work should go next.
+
 For handoffs that cross project, repository, or thread boundaries, add this traceability header near the top:
 
 ```md

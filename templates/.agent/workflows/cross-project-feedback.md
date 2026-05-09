@@ -8,8 +8,9 @@ Use this when a local project reveals a reusable pattern lesson.
    - Use `.agent/PROJECT_LOG.md` for durable decisions or events.
    - Use `.agent/REVIEW_QUEUE.md` for open reviewer questions.
    - Use `.agent/handoffs/` when another participant needs context.
-2. Decide what remains local to this project.
-3. Copy this block to the canonical Studio Pattern repo or thread.
+2. Ask the human owner to read the summary and add any stakeholder context.
+3. Decide what remains local to this project.
+4. Copy this block to the canonical Studio Pattern repo or thread.
 
 ```md
 # Cross-Project Feedback

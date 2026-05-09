@@ -100,13 +100,25 @@ The default recommendation is to commit `AGENTS.md`, `LOCAL_DEV_NOTES.md`, and `
 
 Add project-specific ignores for secrets, raw logs, local databases, generated artifacts, or other files that should not travel through git.
 
-## 9. Run One Lead/Review Cycle
+## 9. Name The Human Relay
+
+Before the first lead/review cycle, decide who is responsible for reading handoffs and passing work between participants.
+
+That human relay should:
+
+- read enough of each handoff or review to understand the state of play,
+- add stakeholder context when needed,
+- decide whether the next step should go to the lead, reviewer, specialist, future session, or canonical pattern repo,
+- preserve course corrections in project memory.
+
+## 10. Run One Lead/Review Cycle
 
 The first real test is simple:
 
 1. Lead agent completes a coherent task.
 2. Lead updates memory surfaces.
 3. Lead creates a handoff.
-4. Reviewer starts only from the documented first reads.
-5. Reviewer records what was missing or confusing.
-6. Useful lessons are folded back into the project and, if reusable, sent back to the canonical repo with a cross-project feedback block.
+4. Human relay reads the handoff, adds context if needed, and routes it.
+5. Reviewer starts only from the documented first reads and human-routed handoff.
+6. Reviewer records what was missing or confusing in a human-readable way.
+7. Human relay decides whether to accept, redirect, deepen, pause, or route reusable lessons back to the canonical repo with a cross-project feedback block.
