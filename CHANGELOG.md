@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-05-11
+
+- Added Warehouse Picking-Basic Phase 1 as a mid-project field note for lead/reviewer collaboration, human-mediated relay, and review-loop hygiene.
+- Added role/action boundaries and explicit review-target fields to handoff guidance.
+- Added review preflight and closure guidance for verifying fixes against named commits or artifacts.
+- Added mid-project retrospective guidance to the contribution loop.
+- Expanded handoff and cross-project feedback templates with review-target hygiene and mid-project retrospective prompts.
+- Tightened `Before Handoff` hygiene after Antigravity review: avoidable local artifacts and whitespace should be removed from the review diff, not merely noted.
+- Clarified that Warehouse's `session_manager.js` is a project-specific suspend/resume example, not a canonical requirement.
+
 ## 2026-05-09
 
 - Created the initial canonical Studio Pattern scaffold.

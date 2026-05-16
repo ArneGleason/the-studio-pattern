@@ -18,6 +18,19 @@ Reviews should be written so the human owner can understand and route them. The 
 6. Inspect the changed code or artifacts.
 7. Run the checks named by the project when practical.
 
+## Review Preflight
+
+Before writing findings, confirm the review frame:
+
+- What role were you asked to play?
+- Are code edits allowed, or is this review-only?
+- Which repo, branch, commit, and base are being reviewed?
+- Is the branch or PR actually visible at the claimed commit?
+- Are the requirement source and handoff source available?
+- Is the local checkout clean, dirty, missing dependencies, or otherwise different from the handoff?
+
+If the review target is missing or stale, report that as a blocker or review limitation before making deep claims. If the handoff contains contradictory old and new summaries, call out the stale context and review the branch, commit, or PR named in the latest traceability header.
+
 ## What To Review
 
 - correctness,
@@ -29,6 +42,8 @@ Reviews should be written so the human owner can understand and route them. The 
 - stale or missing memory surfaces,
 - failure to update docs after important changes.
 - handoffs or reviews that are too opaque for the human owner to route intelligently.
+- branch hygiene issues that distract from review, such as generated artifacts, local databases, OS metadata, or unrelated files.
+- missing or inaccurate validation instructions, especially build, lint, install, and dependency flags.
 
 ## Cross-Project Reviews
 
@@ -99,3 +114,13 @@ A Studio Pattern review should ask:
 - Does the handoff say what was and was not checked?
 
 If the answer is no, that is a valid review finding.
+
+## Review Loop Closure
+
+When a finding is fixed, verify the specific claim against the named target instead of relying only on the follow-up message. A concise closure note should say:
+
+- which commit or artifact was re-reviewed,
+- which findings are resolved,
+- which checks passed or could not run,
+- whether any P1 or P2 blockers remain,
+- what smoke test or acceptance pass is still recommended before merge.

@@ -1,5 +1,13 @@
 # Project Log
 
+## 2026-05-11
+
+- Synthesized mid-project retrospective evidence from the Warehouse Picking-Basic Phase 1 lead/reviewer loop.
+- Canonicalized role/action boundaries, explicit review targets, review preflight, review closure, and branch hygiene guidance.
+- Added Warehouse field note for human-mediated relay, PR-centric iteration, and pre-handoff hygiene.
+- Expanded handoff and cross-project feedback templates with review-target hygiene and mid-project retrospective prompts.
+- Accepted Antigravity follow-up feedback that `Before Handoff` needed stronger cleanup language and Warehouse's `session_manager.js` needed an explicit non-canonical boundary note.
+
 ## 2026-05-09
 
 - Created the initial canonical Studio Pattern scaffold from verified local evidence in `warehouse` and `stem-resolver`.

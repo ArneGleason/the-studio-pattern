@@ -24,6 +24,10 @@ This is an active role, not a mailbox. The context steward carries summaries bet
 
 The goal is not to slow the work down. The goal is to keep the human stakeholder oriented enough to notice drift, redirect effort, recognize new opportunities, and understand what has been built so far.
 
+The relay work can look like clerical copying from the outside, but it is a form of active participation. Reading each pass-back as it happens lets the human learn the project over time, adjust the direction between cycles, and experience the work as an unfolding story rather than a final summary. That ongoing engagement is part of the value of the pattern.
+
+The context steward may deliberately keep agents separated by a human-readable message boundary. This helps preserve independent perspectives while still giving the human owner a chance to annotate, correct, or stop the loop before the next participant acts.
+
 ## Lead Developer Agent
 
 The lead developer agent advances the next coherent piece of work.

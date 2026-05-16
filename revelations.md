@@ -2,6 +2,16 @@
 
 This file captures recent discoveries, refinements, and working hypotheses. Promote an item into the canonical docs when it survives use in more than one real project or clearly prevents repeated failure.
 
+## 2026-05-11
+
+### Human Relay Is Experiential Governance
+
+The Warehouse Picking-Basic review loop showed that human-mediated copy and pass-back is not merely overhead. Reading each iteration lets the human owner learn the system over time, adjust direction between agents, and decide which agent behaviors should be reinforced. The pattern should preserve that experience when it improves judgment and orientation.
+
+### PR-Centric Iterations Beat Handoff Rewrites
+
+An implementation handoff works best as the stable orientation layer, similar to a PR description. After review begins, short pass-back notes tied to exact commit SHAs are less brittle than rewriting the whole handoff document for each fix, as long as stale claims are marked superseded.
+
 ## 2026-05-09
 
 ### Practical Memory Beats Process Bulk

@@ -48,17 +48,20 @@ Before handoff or review, run the project's normal checks:
 <project validation command>
 ```
 
-Record any checks you could not run in the handoff.
+Record any checks you could not run in the handoff. If handing off a branch for review, also record the exact branch, commit, base, requirements source, and any build or install flags the reviewer needs.
 
 ## Handoff
 
 When handing to another agent, reviewer, human, or future session:
 
 1. Run validation where practical.
-2. Update the memory files listed above.
-3. Create or update a handoff under `.agent/handoffs/`.
-4. Give the human owner a concise summary they can read and route.
-5. Tell the next participant which files to read first.
+2. Check `git status --short` and inspect the intended diff scope.
+3. Remove unrelated generated artifacts, local databases, OS metadata, raw logs, trailing whitespace, and other noisy files before review.
+4. Update the memory files listed above.
+5. Create or update a handoff under `.agent/handoffs/`.
+6. State the requested role and allowed action boundary, such as reviewer-only versus implementation.
+7. Give the human owner a concise summary they can read and route.
+8. Tell the next participant which files to read first.
 
 ## Project Safety
 

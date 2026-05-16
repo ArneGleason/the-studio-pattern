@@ -49,6 +49,34 @@ Reusable lessons can become:
 - a revelation or working hypothesis,
 - a future script or utility, if the need repeats.
 
+## Mid-Project Retrospectives
+
+Do not wait until the end of a project to capture pattern feedback. Mid-project retrospectives are useful when the participants can still remember what helped, what hurt, and which parts of the relay changed the work.
+
+For a multi-agent project, ask for three perspectives when practical:
+
+- the human context steward,
+- the lead developer agent,
+- the reviewer or specialist agent.
+
+The human perspective is not just a final approval signal. The human may be learning the project through the rhythm of handoffs, noticing product drift between cycles, and deciding which variations in agent behavior should be encouraged or discouraged. Capture that experience directly.
+
+Keep mid-project retrospectives provisional. Record them as field evidence first, then decide whether each lesson belongs in:
+
+- a case-study note,
+- `revelations.md`,
+- a protocol update,
+- a template update,
+- a project-specific `LOCAL_DEV_NOTES.md` entry.
+
+Useful prompts:
+
+- What worked well?
+- What caused friction or stale context?
+- What should become a canonical pattern change?
+- What should remain project-specific?
+- What practice will each participant adopt immediately?
+
 ## Cross-Project Feedback Blocks
 
 Use a cross-project feedback block when a lesson, review result, or boundary clarification moves from one project to another.

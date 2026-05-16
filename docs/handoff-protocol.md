@@ -14,12 +14,14 @@ Use a handoff when:
 ## Before Handoff
 
 1. Run the project's normal validation checks.
-2. Check git status and note uncommitted work.
+2. Check `git status --short`, inspect the intended diff scope, and remove unrelated local dev artifacts, generated files, local databases, OS metadata, raw logs, and trailing whitespace from the handoff diff.
 3. Update `LOCAL_DEV_NOTES.md` if a reusable command or gotcha was discovered.
 4. Update `.agent/PROJECT_LOG.md` if a durable decision was made.
 5. Update `.agent/REVIEW_QUEUE.md` if there are known risks or questions.
 6. Update `.agent/session.json`.
 7. Write a timestamped handoff note under `.agent/handoffs/` when the project uses handoff files.
+
+If unrelated or noisy files must remain in the diff, call them out explicitly and explain why they are in scope. For review handoffs, do not merely note avoidable noise; clean it before asking the reviewer to reason about the change.
 
 ## Handoff Contents
 
@@ -29,6 +31,8 @@ A good handoff includes:
 - timestamp,
 - branch and commit when available,
 - status,
+- requested role and allowed action boundary,
+- review target when the handoff asks for review,
 - traceability header when the handoff crosses projects or threads,
 - agent and machine handles when local environment identity matters,
 - what changed,
@@ -41,6 +45,50 @@ A good handoff includes:
 - project-specific state summary.
 
 Keep the handoff concise. Link to memory surfaces rather than copying long histories.
+
+## Role And Action Boundary
+
+When handing work to another participant, say what role they are being asked to play.
+
+Useful examples:
+
+- `Role requested: Lead developer`
+- `Role requested: Reviewer`
+- `Role requested: Specialist`
+- `Allowed actions: static review and smoke test only`
+- `Disallowed actions: no code edits, commits, pushes, or product-scope changes`
+
+This boundary is especially important when two agents are collaborating through a human relay. It prevents a reviewer from becoming an accidental implementer and helps the human owner compare feedback from separate perspectives.
+
+## Review Target And Iteration Hygiene
+
+When a handoff asks for code or artifact review, include the exact target:
+
+```md
+## Review Target
+
+- Repo: `<repo>`
+- Branch: `<branch>`
+- Commit: `<commit>`
+- Base: `<base branch or commit>`
+- PR or compare URL: `<url or none>`
+- Requirements source: `<file, directory, issue, or handoff>`
+- Local checkout status: `<known clean, dirty, not available, or unknown>`
+```
+
+For review iterations, prefer PR-centric updates. The original handoff can act like a PR description: keep it accurate enough for orientation, then use new commit SHAs and short pass-back messages for each review cycle. Do not rewrite the whole handoff for every small fix unless the architecture, scope, or acceptance criteria changed.
+
+Before asking for review, clean up the branch enough that the reviewer can focus on product and code risks:
+
+- run the project validation commands when practical,
+- run whitespace or formatting checks such as `git diff --check`,
+- inspect `git status --short`,
+- inspect `git diff --stat <base>...<branch>` or the project equivalent,
+- remove generated artifacts, local databases, OS metadata, raw logs, and unrelated files,
+- record exact build, lint, and test commands, including special flags or dependency quirks,
+- mark stale handoff claims as superseded instead of leaving contradictory summaries in the message.
+
+If checks cannot run because of local dependencies, credentials, network access, or machine state, say that directly. The environment finding may belong in `LOCAL_DEV_NOTES.md`; the handoff should still tell the reviewer what happened.
 
 ## Human-Mediated Handoff
 
@@ -114,6 +162,19 @@ Many projects can use the same mechanism for both, but the intent should be clea
 - Branch: <branch>
 - Commit: <commit-or-none>
 - Studio Pattern: <date-or-version> from <commit>
+- Role requested: <lead developer | reviewer | specialist | future session>
+- Allowed actions: <implementation | static review | smoke test | docs update | etc.>
+- Disallowed actions: <optional boundaries>
+
+## Review Target
+
+- Repo: <repo>
+- Branch: <branch>
+- Commit: <commit>
+- Base: <base branch or commit>
+- PR or compare URL: <url-or-none>
+- Requirements source: <file, directory, issue, or handoff>
+- Local checkout status: <known-clean | dirty | unavailable | unknown>
 
 <!-- If this crosses projects or threads, add:
 - To: <destination>

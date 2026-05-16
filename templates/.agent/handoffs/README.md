@@ -10,6 +10,24 @@ YYYYMMDD-HHMMSS-short-task-name.md
 
 Each handoff should summarize what changed, current state, checks run, checks not run, reviewer starting points, and open questions.
 
+When asking for review, also include:
+
+```md
+- Role requested: <reviewer | lead developer | specialist | future session>
+- Allowed actions: <static review | smoke test | implementation | docs update | etc.>
+- Disallowed actions: <optional boundaries>
+
+## Review Target
+
+- Repo: <repo>
+- Branch: <branch>
+- Commit: <commit>
+- Base: <base branch or commit>
+- PR or compare URL: <url-or-none>
+- Requirements source: <file, directory, issue, or handoff>
+- Local checkout status: <known-clean | dirty | unavailable | unknown>
+```
+
 Write handoffs for the human owner first. The next reader may be another agent, but the human should be able to understand the state, add context, and decide where the work should go next.
 
 For handoffs that cross project, repository, or thread boundaries, add this traceability header near the top:
