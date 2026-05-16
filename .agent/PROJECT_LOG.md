@@ -1,5 +1,11 @@
 # Project Log
 
+## 2026-05-16
+
+- Canonicalized Arne's current framing that model/tool diversity is intentional, not just a way to parallelize work.
+- Clarified that the human owner is the default routing hub between lead, reviewer, specialist, future session, and canonical-pattern contribution.
+- Added adoption guidance for recording the intended participant mix and whether direct self-orchestration is allowed.
+
 ## 2026-05-11
 
 - Synthesized mid-project retrospective evidence from the Warehouse Picking-Basic Phase 1 lead/reviewer loop.

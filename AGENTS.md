@@ -36,6 +36,7 @@ Machine handles are assigned by Arne as the human relay. Do not infer or change 
 - Keep the pattern lightweight and evidence-based.
 - Prefer changes that help real projects resume, hand off, or review work with less confusion.
 - Preserve the human-mediated relay principle: handoffs and reviews should help the human owner understand, route, and course-correct cross-agent work.
+- Preserve intentional model/tool diversity: choose lead, reviewer, and specialist participants for useful differences, not just for parallelism.
 - Preserve environment identity: name both the agent/tool and machine handle when local checkout state matters.
 - Distinguish canonical guidance from project-specific adaptation.
 - Update `templates/` only when a practice should be reusable by new projects.

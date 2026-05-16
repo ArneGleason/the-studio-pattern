@@ -22,6 +22,21 @@ When work moves between agents or environments, the human should be able to read
 
 Direct agent-to-agent transfer can be useful when the human explicitly delegates it, but the default pattern should preserve human visibility. The relay moment is where taste, intent, risk tolerance, and opportunity recognition enter the system.
 
+## Intentional Model Diversity
+
+The Studio Pattern treats diversity of models, tools, roles, and environments as a design input.
+
+A lead developer, reviewer, and specialist should not be different only for the sake of parallelism. They should be chosen because their differences help the work:
+
+- a stronger coding model may own implementation,
+- a different model may review for missed assumptions,
+- a specialist model or tool may handle research, DSP, security, UI, or data analysis,
+- a separate machine may preserve independent local state or credentials.
+
+The human owner remains the hub for deciding which participant should receive the next task. This keeps the human close enough to learn the project, notice new opportunities, catch drift, and adjust the role mix.
+
+Direct self-orchestration can still be useful when the human explicitly asks for it, especially for bounded parallel subtasks. The default Studio Pattern, however, is not an opaque swarm that disappears and reports back days later. It favors human-readable relays, named roles, and visible decision points.
+
 ## Distributed Local Environments
 
 The Studio Pattern works especially well when different agents run in different local environments. Physical or machine-level separation makes the system more robust: one machine can fail, drift, or be rebuilt without destroying every participant's working context.

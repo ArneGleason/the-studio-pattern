@@ -4,6 +4,8 @@ Welcome to `<project-name>`.
 
 This repository uses the Studio Pattern: one lead participant advances the project, another participant reviews or continues from a written handoff, and the project keeps lightweight memory surfaces so context survives across sessions.
 
+The human owner is the routing hub by default. Different models, tools, roles, or machines should be chosen deliberately when their differences help with implementation, review, specialist analysis, or blind-spot coverage.
+
 Studio Pattern source:
 
 - Version/date: `<YYYY-MM-DD or release>`
@@ -38,6 +40,7 @@ Studio Pattern source:
 - Keep `.agent/session.json` current before suspend, handoff, or model/environment transfer.
 - Include machine handles in handoffs when work moves between physical machines or local environments.
 - Write handoffs and review notes for the human owner first; another agent may be the next reader, but the human should be able to understand and route the work.
+- Preserve role and perspective boundaries. Do not collapse a reviewer into an implementer, or start direct self-orchestration, unless the human owner explicitly routes the work that way.
 - If this project teaches a reusable Studio Pattern lesson, record it locally first, then send a cross-project feedback block to the canonical repository or thread.
 
 ## Validation

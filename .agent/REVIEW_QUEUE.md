@@ -1,5 +1,11 @@
 # Review Queue
 
+## 2026-05-16 Reviewer Focus
+
+- Does the new model/tool diversity language stay practical without over-prescribing which models should play which roles?
+- Is the direct self-orchestration boundary clear enough: useful when explicitly delegated, not the default Studio Pattern mode?
+- Should adopting projects record model identity explicitly, or is agent/tool plus role enough until a project needs more detail?
+
 ## Antigravity Review Follow-Up
 
 Status: accepted and implemented in the self-hosting bootstrap pass.

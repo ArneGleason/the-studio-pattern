@@ -41,6 +41,8 @@ A project using the Studio Pattern keeps a small set of practical memory surface
 
 The human sets direction and taste. The lead agent moves the project forward and records what matters. The reviewer agent examines the result from a fresh angle. Specialist agents can be brought in for narrow tasks when useful.
 
+The point is not merely to have more agents. The point is to use different models, tools, roles, and environments deliberately, so each participant can bring a useful strength or blind-spot check. A reviewer should not simply be another copy of the lead's assumptions unless the human owner intentionally chooses that.
+
 The human is also the context steward. Cross-agent messages should usually pass through a human-readable handoff that the human can read, understand, annotate, and choose how to route. That pause is part of the pattern: it keeps the stakeholder aware of what is happening, creates space for course correction, and helps the project notice opportunities that a direct agent-to-agent relay might miss.
 
 Agents may also run on different physical machines or local environments. The pattern treats that as useful separation, not incidental detail: an agent/tool name says who is reasoning, while a machine handle says where the local checkout, dependencies, credentials, and runtime state live.
@@ -86,6 +88,8 @@ Reusable improvements should be proposed back here by updating docs, templates, 
 - Keep handoffs short enough that another agent will actually read them.
 - Write handoffs for human comprehension first, even when another agent is the next reader.
 - Use human-mediated relay as a feature, not friction: the human should be able to understand and redirect the work as it moves between agents.
+- Choose participant roles, models, tools, and environments deliberately when different perspectives or capabilities would improve the work.
+- Treat direct self-orchestration as an explicit delegation choice, not the default mode.
 - Use stable human-assigned machine handles when local environment identity matters.
 - Make decisions visible where future work will look for them.
 - Treat reviews as a way to find bugs, risks, unclear memory, and weak assumptions.

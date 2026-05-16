@@ -14,6 +14,8 @@ Responsibilities:
 - Read cross-agent handoffs closely enough to understand the current state.
 - Add missing context, course corrections, or opportunity notes before passing work onward.
 - Decide which agent, model, environment, or human should receive the next handoff.
+- Choose participant roles and model/tool diversity intentionally when it can improve judgment, coverage, or implementation quality.
+- Decide when direct agent-to-agent or automated orchestration is allowed.
 - Decide when local lessons should become canonical pattern updates.
 
 ## Human Context Steward
@@ -27,6 +29,8 @@ The goal is not to slow the work down. The goal is to keep the human stakeholder
 The relay work can look like clerical copying from the outside, but it is a form of active participation. Reading each pass-back as it happens lets the human learn the project over time, adjust the direction between cycles, and experience the work as an unfolding story rather than a final summary. That ongoing engagement is part of the value of the pattern.
 
 The context steward may deliberately keep agents separated by a human-readable message boundary. This helps preserve independent perspectives while still giving the human owner a chance to annotate, correct, or stop the loop before the next participant acts.
+
+That separation is especially useful when different models are chosen to cover different strengths and blind spots. The context steward does not only move text between tools; they decide whether the next perspective should be a builder, reviewer, specialist, future session, or canonical-pattern contributor.
 
 ## Lead Developer Agent
 
@@ -66,6 +70,8 @@ Examples:
 - documentation pass.
 
 Specialists should receive a tight brief and write their findings back into the same project memory surfaces instead of creating a separate shadow process.
+
+When choosing a specialist, name the reason for the specialization. Examples: different model assumptions, a stronger research tool, a local environment with required assets, or a domain-specific workflow.
 
 ## Human And Agent Handoffs
 

@@ -111,7 +111,21 @@ That human relay should:
 - decide whether the next step should go to the lead, reviewer, specialist, future session, or canonical pattern repo,
 - preserve course corrections in project memory.
 
-## 10. Name The Local Environments
+## 10. Plan The Participant Mix
+
+Before adding more agents, decide what kind of difference is useful.
+
+Record the intended participant mix in `AGENTS.md`, `LOCAL_DEV_NOTES.md`, or `.agent/session.json`:
+
+- who is lead,
+- who is reviewer,
+- which specialists may be useful,
+- which model, tool, or machine differences are intentional,
+- whether direct agent-to-agent orchestration is allowed or whether the human relay remains required.
+
+Prefer a small, named set of participants over an undefined swarm. Add automation or parallel agents only when the human owner has a clear reason and a way to inspect the result.
+
+## 11. Name The Local Environments
 
 Assign stable machine handles for any physical machines or local environments that will participate.
 
@@ -125,7 +139,7 @@ Record the current handle in `LOCAL_DEV_NOTES.md` and `.agent/session.json`. Do 
 
 When sending work between machines, include both the agent/tool and machine handle, for example: `Codex on macbook-pro-m5 -> Antigravity on mac-mini-pro-m4`.
 
-## 11. Run One Lead/Review Cycle
+## 12. Run One Lead/Review Cycle
 
 The first real test is simple:
 

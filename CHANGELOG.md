@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-05-16
+
+- Clarified intentional model/tool diversity as a core Studio Pattern design principle.
+- Added guidance that the human owner remains the default routing hub and direct self-orchestration should be explicit delegation.
+- Updated adoption guidance so projects record the intended participant mix before adding more agents.
+
 ## 2026-05-11
 
 - Added Warehouse Picking-Basic Phase 1 as a mid-project field note for lead/reviewer collaboration, human-mediated relay, and review-loop hygiene.

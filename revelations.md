@@ -2,6 +2,16 @@
 
 This file captures recent discoveries, refinements, and working hypotheses. Promote an item into the canonical docs when it survives use in more than one real project or clearly prevents repeated failure.
 
+## 2026-05-16
+
+### Model Diversity Is A Design Input
+
+The value of a Studio Pattern team is not only that multiple agents can run. It is that the human can choose different models, tools, roles, and environments for the particular kind of judgment needed next. A reviewer, specialist, or second implementer should bring a useful difference in assumptions, capability, or local context.
+
+### Human Hub Beats Opaque Swarm By Default
+
+Direct self-orchestration can be useful when explicitly delegated, but the default pattern keeps the human in the routing center. That lets the human learn the project as it unfolds, notice opportunities between passes, and prevent invisible drift before a large automated run returns with stale assumptions.
+
 ## 2026-05-11
 
 ### Human Relay Is Experiential Governance
